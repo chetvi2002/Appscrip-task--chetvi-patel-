@@ -5,4 +5,13 @@ export const SVG = {
   ShoppingBag: "./svg/ShoppingBag.svg",
   Profile: "./svg/Profile.svg",
   Language: "./svg/Language.svg",
+  US: "./svg/UnitedStatesOfAmerica.svg",
+  Instagram: "./svg/Instagram.svg",
+  LinkedIn: "./svg/LinkedIn.svg",
+  GPay: "./svg/GPay.svg",
+  ApplePay: "./svg/ApplePay.svg",
+  PayPal: "./svg/PayPal.svg",
+  MasterCard: "./svg/MasterCardLogo.svg",
+  Amex: "./svg/Amex.svg",
+  Pay: "./svg/Pay.svg",
 };

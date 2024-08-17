@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   gap: 64px;
-  font-family: monospace;
+  font-family: Lucida Sans;
   font-weight: 700;
   color: #252020;
   font-size: 20px;
@@ -45,7 +45,7 @@
   flex-direction: column;
   gap: 16px;
   font-size: 18px;
-  font-family: monospace;
+  font-family: Lucida Sans;
   font-weight: 700;
   color: #252020;
 }

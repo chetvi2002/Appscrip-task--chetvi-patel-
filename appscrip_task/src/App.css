@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: monospace;
+  font-family: Lucida Sans;
 }
 
 .App-logo {

@@ -13,14 +13,16 @@
   width: 700px;
 }
 .mainHeading{
-  font-family: monospace;
+  font-family:Lucida Sans;
   font-weight: 400px;
   color: #252020;
-  font-size: 60px;
+  font-size: 50px;
+  line-height: 72px;
   margin-top: 50px;
 }
 .subHeading{
-  font-family: monospace;
+  font-family: Lucida Sans;
   font-weight: 400px;
   color: #252020;
-  font-size: 22px;}
+  font-size: 22px;
+line-height: 40px;}

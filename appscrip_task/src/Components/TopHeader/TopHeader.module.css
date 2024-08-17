@@ -1,0 +1,86 @@
+.container{
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+ flex: 1;
+ text-align: center;
+ font-weight: 600;
+ font-size: 26px;
+}
+
+.image{
+  position: absolute;
+  left: 96px;
+  width: 36px;
+  width: 36px;
+}
+.imageContainer{
+  display: flex;
+  gap:24px;
+}
+@media (max-width: 900px) and (min-width: 600px) {
+  .container {
+    padding: 30px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .image {
+    left: 70px; 
+    width: 30px;
+    height: 30px; 
+  }
+
+  .imageContainer {
+    gap: 20px;
+  }
+}
+@media (max-width: 599px) {
+  .container {
+    flex-direction: row; 
+    padding: 20px; 
+    margin-left: 20px;
+  }
+
+  .logo {
+    font-size: 16px; 
+    text-align: left;   
+  }
+  .image {
+    width: 16px; 
+    height: 16px;
+    position: relative; 
+    left: auto; 
+  }
+
+  .imageContainer {
+    gap: 12px; 
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+  }
+  .heartImage{
+    width: 16px;
+    height: 16px;
+  }
+  .searchImage{
+    width: 16px;
+    height: 16px;
+  }
+  .shoppingBagImage{
+    width: 16px;
+    height: 16px;
+  }
+  .profileImage{
+    width: 16px;
+    height: 16px;
+  }
+  .languageImage{
+    width: 16px;
+    height: 16px;
+  }
+}

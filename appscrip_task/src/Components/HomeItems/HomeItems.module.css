@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .cardsContainer {
@@ -71,6 +71,16 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.heartImage {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.heartFavorited {
+ fill: red;
+}
+
 .loading, .error {
   font-size: 18px;
   color: #333;

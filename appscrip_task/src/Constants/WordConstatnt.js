@@ -15,3 +15,10 @@ export const Quick_Links = [
   "Privacy Policy",
   "Terms & Conditions",
 ];
+export const Sort_Options = [
+  "Recommended",
+  "Newest First",
+  "Popular",
+  "Price - High To Low",
+  "Price - Low To High",
+];

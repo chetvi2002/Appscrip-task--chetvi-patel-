@@ -1,0 +1,97 @@
+.panelContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.panelButton {
+  border: none;
+  background-color: white; 
+  color: #ddd;
+  font-family: Times New Roman;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.panelButton:hover {
+  background-color: #0056b3; 
+}
+
+.optionsContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  position: relative;
+}
+
+.selectMenu {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+  font-family: Lucida Sans, sans-serif;
+  border: none;
+}
+
+.selectMenu:focus {
+  outline: none;
+  border-color: black;
+}
+
+.hr {
+  display: none;
+}
+@media (max-width: 768px) {
+  .panelContainer {
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .panelButton {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .selectMenu {
+    width: 100%;
+    max-width: 300px; 
+  }
+}
+@media (max-width: 480px) {
+  .panelContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .panelButton {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+
+  .selectMenu {
+    width: 100%;
+    max-width: 250px;
+  }
+  .hr {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  height: 1px;
+  background-color: #E5E5E5;
+  rotate: 90deg;
+  width: 50px;
+}
+}

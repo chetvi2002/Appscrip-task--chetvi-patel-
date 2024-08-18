@@ -1,0 +1,54 @@
+.customizableContainer{
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: Lucida Sans;
+  font-weight: bold;
+}
+.filterPanel {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.hr {
+  background-color: #E5E5E5;
+  height: 1px;
+  margin-top: 20px;
+}
+.filterGroup {
+  margin-bottom: 15px;
+}
+.filterLabel {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+  font-family: Lucida Sans;
+}
+
+.selectMenu {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: white;
+  font-family: Lucida Sans;
+}
+
+.selectMenu:focus {
+  outline: none;
+  border-color: #007bff;
+}
+.optionCheckbox{
+  margin: 10px;
+}
+.optionLabel{
+  font-family: Lucida Sans;
+}

@@ -22,3 +22,11 @@ export const Sort_Options = [
   "Price - High To Low",
   "Price - Low To High",
 ];
+
+export const Filter_Options = {
+  idealFor: ["Men", "Women", "Girls", "Boys"],
+  fabric: ["Cotton", "Polyester", "Wool", "Silk"],
+  category: ["Casual", "Formal", "Sports", "Party"],
+  suitableFor: ["Summer", "Winter", "All Seasons"],
+  pattern: ["Solid", "Striped", "Checked", "Printed"],
+};

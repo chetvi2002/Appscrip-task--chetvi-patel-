@@ -6,9 +6,6 @@ const TopHeader = () => {
   return (
     <div className={styles.container}>
       <img className={styles.image} src={SVG.Logo} alt="logo" />
-      <div className={styles.logo}>
-        <div>LOGO</div>
-      </div>
       <div className={styles.imageContainer}>
         <img
           className={styles.searchImage}

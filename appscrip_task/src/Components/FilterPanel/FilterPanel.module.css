@@ -9,8 +9,8 @@
   flex-direction: column;
   padding: 20px;
   max-width: 250px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .title {
@@ -51,4 +51,42 @@
 }
 .optionLabel{
   font-family: Lucida Sans;
+}
+@media (max-width: 768px) { 
+  .filterPanel {
+    padding: 15px;
+    margin: 0 10px; 
+  }
+
+  .filterGroup {
+    margin-bottom: 10px; 
+  }
+
+  .title {
+    font-size: 1.2em; 
+  }
+}
+
+@media (max-width: 480px) { 
+  .filterPanel {
+    padding: 10px;
+    margin: 0 5px; 
+    max-width: 100%; 
+  }
+
+  .filterGroup {
+    margin-bottom: 5px; 
+  }
+
+  .title {
+    font-size: 1em; 
+  }
+
+  .optionCheckbox {
+    margin: 5px; 
+  }
+
+  .filterLabel {
+    font-size: 0.9em; 
+  }
 }

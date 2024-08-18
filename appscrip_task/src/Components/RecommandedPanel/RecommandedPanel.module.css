@@ -5,11 +5,10 @@
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   justify-content: space-between;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 50px;
 }
-
 .panelButton {
   border: none;
   background-color: white; 
@@ -20,18 +19,12 @@
   padding: 10px 15px;
   cursor: pointer;
 }
-
-.panelButton:hover {
-  background-color: #0056b3; 
-}
-
 .optionsContainer {
   display: flex;
   align-items: center;
   flex-grow: 1;
   position: relative;
 }
-
 .selectMenu {
   width: 200px;
   padding: 10px;

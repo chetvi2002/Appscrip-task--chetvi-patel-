@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./App.css";
 import BaseHeader from "./Components/BaseHeader/BaseHeader";
 import FilterPanel from "./Components/FilterPanel/FilterPanel";
@@ -15,6 +15,9 @@ function App() {
     setIsFilterVisible((prevState) => !prevState);
   };
 
+  useEffect(() => {
+    document.title = "Appscrip task";
+  }, []);
   return (
     <div className={styles.App}>
       <TopHeader />
